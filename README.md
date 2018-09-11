@@ -10,14 +10,14 @@ A Flysystem Baidu Bos Wrapper for Laravel
 ## Installation
 
 ```bash
-composer require "zhuxiaoqiao/laravel-baidu-bos": "~1.0"
+composer require "smilestt/laravel-baidu-bos"
 
 ```
 or add the following line to your project's `composer.json`:
 
 ```json
 "require": {
-    "zhuxiaoqiao/laravel-baidu-bos": "~1.0"
+    "smilestt/laravel-baidu-bos": "~1.0"
 }
 ```
 then
@@ -28,7 +28,7 @@ composer update
 After completion of the above, add the following line to the section `providers` of `config/app.php`:
 
 ```php
-'Zhuxiaoqiao\LaravelBaiduBos\BaiduBosFilesystemServiceProvider',
+'Zhuxiaoqiao\LaravelBaiduBos\BaiduBosFilesystemServiceProvider::class',
 ```
 
 ## Configuration
