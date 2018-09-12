@@ -10,7 +10,7 @@ A Flysystem Baidu Bos Wrapper for Laravel
 ## Installation
 
 ```bash
-composer require "smilestt/laravel-baidu-bos"
+composer require smilestt/laravel-baidu-bos
 
 ```
 or add the following line to your project's `composer.json`:
